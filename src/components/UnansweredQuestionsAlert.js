@@ -85,8 +85,8 @@ function UnansweredQuestionsAlert({
   return (
     <UnansweredQuestionsAlertStyled>
       <Text>
-        You still have <strong>{questionsRemaining}</strong> questions left
-        unanswered. Would you like to:
+        Vielä <strong>{questionsRemaining}</strong> kysymystä odottaa
+        vastaustasi.
       </Text>
       <Buttons>
         <ButtonsItem>
@@ -108,15 +108,14 @@ function UnansweredQuestionsAlert({
                 onClick={() => dispatch({ type: 'TURN_ON_HIGHLIGHT' })}
                 disabled={turnOnHighlight}
               >
-                Highlight all unanswered questions
+                Korosta avoimena olevat kysymykset
               </Button>
             </span>
           </Tippy>
         </ButtonsItem>
-        <div>OR</div>
         <ButtonsItem>
           <Button onClick={() => dispatch({ type: 'MARK_UNANSWERED_NEUTRAL' })}>
-            Mark unanswered questions neutral
+            Piilota avointen kysymysten korostus
           </Button>
         </ButtonsItem>
       </Buttons>

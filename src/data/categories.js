@@ -1,38 +1,53 @@
-import environment from '../assets/icons/environment.svg'
-import finance from '../assets/icons/finance.svg'
-import love from '../assets/icons/love.svg'
-import social from '../assets/icons/social.svg'
-import mind from '../assets/icons/mind.svg'
-import appearance from '../assets/icons/appearance.svg'
-import health from '../assets/icons/health.svg'
+import taydellisyydenTavoittelija from '../assets/icons/taydellisyydenTavoittelija.svg'
+import ikuinenUneksija from '../assets/icons/ikuinenUneksija.svg'
+import kiihkeastiTulevaisuuteenKurkottaja from '../assets/icons/kiihkeastiTulevaisuuteenKurkottaja.svg'
+import turvalliseenMenneisyyteenLuottaja from '../assets/icons/turvalliseenMenneisyyteenLuottaja.svg'
+import melkeinSitoutuja from '../assets/icons/melkeinSitoutuja.svg'
+import erityisenEmpaattinenTyyppi from '../assets/icons/erityisenEmpaattinenTyyppi.svg'
+import tunnollinenVelvollisuuksienTayttaja from '../assets/icons/tunnollinenVelvollisuuksienTayttaja.svg'
+import huolestumisenMestari from '../assets/icons/huolestumisenMestari.svg'
+import taitavaNautiskelija from '../assets/icons/taitavaNautiskelija.svg'
+import yliOptimisti from '../assets/icons/yliOptimisti.svg'
 
 export default [
   {
-    name: 'Environment',
-    image: environment
+    name: 'Täydellisyyden tavoittelija',
+    image: taydellisyydenTavoittelija
   },
   {
-    name: 'Finance',
-    image: finance
+    name: 'Ikuinen uneksija',
+    image: ikuinenUneksija
   },
   {
-    name: 'Love',
-    image: love
+    name: 'Kiihkeästi tulevaisuuteen kurkottaja',
+    image: kiihkeastiTulevaisuuteenKurkottaja
   },
   {
-    name: 'Social',
-    image: social
+    name: 'Turvalliseen menneisyyteen luottaja',
+    image: turvalliseenMenneisyyteenLuottaja
   },
   {
-    name: 'Mind',
-    image: mind
+    name: 'Melkein sitoutuja',
+    image: melkeinSitoutuja
   },
   {
-    name: 'Appearance',
-    image: appearance
+    name: 'Erityisen empaattinen tyyppi',
+    image: erityisenEmpaattinenTyyppi
   },
   {
-    name: 'Health',
-    image: health
+    name: 'Tunnollinen velvollisuuksien täyttäjä',
+    image: tunnollinenVelvollisuuksienTayttaja
+  },
+  {
+    name: 'Huolestumisen mestari',
+    image: huolestumisenMestari
+  },
+  {
+    name: 'Taitava nautiskelija',
+    image: taitavaNautiskelija
+  },
+  {
+    name: 'Ylioptimisti',
+    image: yliOptimisti
   }
 ]

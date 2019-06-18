@@ -17,7 +17,7 @@ const QuestionStyled = styled.div`
   }
 
   &::before {
-    content: 'Unanswered';
+    content: 'Avoin';
     position: absolute;
     display: ${props => (props.isHighlighted ? 'flex' : 'none')};
     justify-content: center;

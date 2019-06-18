@@ -18,13 +18,13 @@ const highPop = new Howl({ src: pop1, ...options })
 const popSounds = [lowPop, lowPop, lowPop, midPop, highPop, highPop, highPop]
 
 export const TITLES = [
-  'Strongly disagree',
-  'Disagree',
-  'Slightly disagree',
-  'Neutral',
-  'Slightly agree',
-  'Agree',
-  'Strongly agree',
+  'Vahvasti eri mieltä',
+  'Eri mieltä',
+  'Hieman eri mieltä',
+  'En osaa sanoa',
+  'Hieman samaa mieltä',
+  'Samaa mieltä',
+  'Voimakkaasti samaa mieltä',
 ]
 
 const feedbackAnimation = keyframes`

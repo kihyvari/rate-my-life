@@ -69,7 +69,6 @@ function ResultsModal({
               >
                 <Title>Your Life Rating</Title>
                 <RatingCircle rating={rating} size={150} color={color}>
-                  <CategoryTitle>Overall</CategoryTitle>
                 </RatingCircle>
                 <Categories>
                   {Object.keys(categoryRatings || {}).map(key => {
@@ -78,10 +77,6 @@ function ResultsModal({
                     const name = key[0].toUpperCase() + key.slice(1)
                     return (
                       <Category key={key}>
-                        <CategoryImage
-                          src={CATEGORIES.find(cat => cat.name === name).image}
-                          alt={name}
-                        />
                         <RatingCircle
                           rating={rating}
                           size={100}

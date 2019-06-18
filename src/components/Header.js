@@ -5,7 +5,7 @@ import Categories from './Categories'
 import ThemeToggler from './ThemeToggler'
 import Tippy from './Tippy'
 import logoLight from '../assets/tamora-logo.png'
-import logoDark from '../assets/logo-dark.svg'
+import logoDark from '../assets/tamora-logo.png'
 import QUESTIONS from '../data/questions'
 
 const HeaderStyled = styled.header`

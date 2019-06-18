@@ -66,7 +66,6 @@ function Categories() {
     <CategoriesStyled>
       {CATEGORIES.map(category => (
         <Category key={category.name}>
-          <CategoryImage src={category.image} draggable="false" />
           <CategoryName>{category.name}</CategoryName>
         </Category>
       ))}

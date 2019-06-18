@@ -89,7 +89,7 @@ function Main() {
             />
           )}
           <SubmitButton disabled={questionsRemaining > 0} onClick={onSubmit}>
-            Get Life Rating!
+            Kerro minulle, millainen kiirehtijä olen!
           </SubmitButton>
         </Center>
       </Container>

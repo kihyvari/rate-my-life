@@ -22,15 +22,13 @@ function Footer() {
           <ExternalLink href="https://github.com/atomiks/rate-my-life">
             GitHub
           </ExternalLink>
-        </p>
-        <p>
-          Icons made by{' '}
+          . Icons made by{' '}
           <ExternalLink href="https://www.freepik.com/">Freepik</ExternalLink>{' '}
           from{' '}
           <ExternalLink href="https://www.flaticon.com/">
             www.flaticon.com
           </ExternalLink>{' '}
-          is licensed by{' '}
+          are licensed by{' '}
           <ExternalLink
             href="http://creativecommons.org/licenses/by/3.0/"
             title="Creative Commons BY 3.0"

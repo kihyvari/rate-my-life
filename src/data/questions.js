@@ -1,153 +1,252 @@
 export default [
   {
-    title: 'I feel safe where I live.',
-    category: 'environment',
+    title: 'Minun on vaikea tunnistaa  paljonko on riittävästi, ellei aika riitä täydelliseen.',
+    category: 'Täydellisyyden tavoittelija',
     isPositive: true
   },
   {
-    title: 'I usually have to settle for less expensive versions of items.',
-    category: 'finance',
-    isPositive: false
-  },
-  {
-    title: 'I often feel worried or anxious about things.',
-    category: 'mind',
-    isPositive: false
-  },
-  {
-    title: 'I frequently have suicidal thoughts.',
-    category: 'mind',
-    isPositive: false
-  },
-  {
-    title: 'I like the way I look.',
-    category: ['appearance', 'mind'],
+    title: 'Minun on vaikea hyväksyä mielestäni epätäydellinen suoritus.',
+    category: 'Täydellisyyden tavoittelija',
     isPositive: true
   },
   {
-    title: 'I consider myself hygienic.',
-    category: 'appearance',
+    title: 'Unohdan nauttia työnteon erilaisista vaiheista.',
+    category: 'Täydellisyyden tavoittelija',
     isPositive: true
   },
   {
-    title: 'I live in a place with beautiful scenery.',
-    category: 'environment',
+    title: 'Tehtävien delegoiminen on minulle vaikeaa, koska osaan itse paremmin.',
+    category: 'Täydellisyyden tavoittelija',
     isPositive: true
   },
   {
-    title: 'I struggle to land dates with a potential romantic partner.',
-    category: 'love',
+    title: 'Täydellisyyden tavoittelija tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Täydellisyyden tavoittelija',
+    isPositive: true
+  },
+  {
+    title: 'Saan inspiraation tulevaisuuden Suurista Mahdollisuuksista.',
+    category: 'Ikuinen uneksija',
     isPositive: false
   },
   {
-    title: 'I often get invited to social gatherings.',
-    category: 'social',
-    isPositive: true
-  },
-  {
-    title: 'I feel less physically able than most people.',
-    category: 'health',
+    title: 'Olen ideanikkari, jolta pulppuaa uusia ajatuksia.',
+    category: 'Ikuinen uneksija',
     isPositive: false
   },
   {
-    title: 'I have health problems.',
-    category: 'health',
+    title: 'Muut eivät usein usko visioihini ja lähde mukaan toteutukseen.',
+    category: 'Ikuinen uneksija',
     isPositive: false
   },
   {
-    title: 'I generally feel loved by those around me.',
-    category: 'love',
-    isPositive: true
-  },
-  {
-    title: 'I have a romantic partner who I am deeply in love with.',
-    category: 'love',
-    isPositive: true
-  },
-  {
-    title: 'It is easy for me to find employment.',
-    category: 'finance',
-    isPositive: true
-  },
-  {
-    title: 'I avoid mirrors.',
-    category: 'appearance',
+    title: 'Minulta jää asioita kesken, koska ideoita on liikaa enkä malta keskittyä riittävän pitkään.',
+    category: 'Ikuinen uneksija',
     isPositive: false
   },
   {
-    title: 'I can afford things I want easily.',
-    category: 'finance',
+    title: 'Ikuinen uneksija tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Ikuinen uneksija',
+    isPositive: false
+  },
+  {
+    title: 'Täydennän joskus hitaampitempoisten lauseita.',
+    category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
   {
-    title: 'I struggle to pay bills on time.',
-    category: 'finance',
-    isPositive: false
-  },
-  {
-    title: 'I have a good amount of money in savings.',
-    category: 'finance',
+    title: 'Ajatukseni eksyvät jo seuraavaan lauseeseen/ tehtävään, kun edellinen on vielä kesken.',
+    category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
   {
-    title: 'I am physically fit with a good body.',
-    category: ['health', 'appearance'],
+    title: 'Suunnittelen omia vuorosanojasi kesken toisen puheenvuoron.',
+    category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
   {
-    title: 'Everything seems to go wrong for me all the time.',
-    category: 'mind',
-    isPositive: false
-  },
-  {
-    title: 'Other people often tell me how good I look.',
-    category: 'appearance',
+    title: 'Nappaan ideoita kiinni lennosta ja olen heti valmis lähtemään liikkeelle.',
+    category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
   {
-    title: 'I am close to supermarkets and fun attractions.',
-    category: 'environment',
+    title: 'Kiihkeästi tulevaisuuteen kurkottaja tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
   {
-    title: 'I would not feel safe walking alone at night in my city.',
-    category: ['mind', 'environment'],
+    title: 'Kaipaan usein lisää aikaa tietojen ja kokemusten keräämiseen.',
+    category: 'Turvalliseen menneisyyteen luottaja',
     isPositive: false
   },
   {
-    title: 'I live in a prosperous country.',
-    category: ['environment', 'finance'],
+    title: 'Haluaisin analysoida huolellisesti eri mahdollisuudet ennen uuteen ryhtymistä.',
+    category: 'Turvalliseen menneisyyteen luottaja',
+    isPositive: false
+  },
+  {
+    title: 'Muistelen haikeana menneitä hyviä aikoja, jolloin oli aikaa keskustella ja harkita.',
+    category: 'Turvalliseen menneisyyteen luottaja',
+    isPositive: false
+  },
+  {
+    title: 'Nykyinen työelämän muutosvauhti hirvittää minua.',
+    category: 'Turvalliseen menneisyyteen luottaja',
+    isPositive: false
+  },
+  {
+    title: 'Turvalliseen menneisyyteen luottaja tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Turvalliseen menneisyyteen luottaja',
+    isPositive: false
+  },
+  {
+    title: 'Minulla on usein monta rautaa tulessa yhtä aikaa.',
+    category: 'Melkein sitoutuja',
     isPositive: true
   },
   {
-    title: 'I have good friends who I enjoy hanging out with.',
-    category: 'social',
+    title: 'Minulta jää joitain tehtäviä saattamatta loppuun, koska niitä on niin paljon. ',
+    category: 'Melkein sitoutuja',
     isPositive: true
   },
   {
-    title: 'I often feel lonely.',
-    category: 'social',
+    title: 'Minun on vaikea olla jouten.',
+    category: 'Melkein sitoutuja',
+    isPositive: true
+  },
+  {
+    title: 'Kuuntelen usein puolella korvalla ja samalla puuhaan muutakin.',
+    category: 'Melkein sitoutuja',
+    isPositive: true
+  },
+  {
+    title: 'Melkein sitoutuja tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Melkein sitoutuja',
+    isPositive: true
+  },
+  {
+    title: 'Minun on vaikea sanoa ei, kun minulta pyydetään apua.',
+    category: 'Erityisen empaattinen tyyppi',
+    isPositive: true
+  },
+  {
+    title: 'Olen hyvä kuuntelemaan ystävieni huolia.',
+    category: 'Erityisen empaattinen tyyppi',
+    isPositive: true
+  },
+  {
+    title: 'Myötätuntoni ohjaa minut pelastamaan kollegoita heidän vaikeuksistaan.',
+    category: 'Erityisen empaattinen tyyppi',
+    isPositive: true
+  },
+  {
+    title: 'Koen itseni luottohenkilöksi, jolle on työkaverit helposti avautuvat murheineen.',
+    category: 'Erityisen empaattinen tyyppi',
+    isPositive: true
+  },
+  {
+    title: 'Erityisen empaattinen tyyli tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Erityisen empaattinen tyyppi',
+    isPositive: true
+  },
+  {
+    title: 'Pyrin hoitamaan minulle annetut tehtävät ja aikataulut kyseenalaistamatta niitä.',
+    category: 'Tunnollinen velvollisuuksien täyttäjä',
+    isPositive: true
+  },
+  {
+    title: 'Kaipaisin lisää iloa työhöni.',
+    category: 'Tunnollinen velvollisuuksien täyttäjä',
+    isPositive: true
+  },
+  {
+    title: 'Olen enemmän tehtävä- kuin ihmiskeskeinen.',
+    category: 'Tunnollinen velvollisuuksien täyttäjä',
+    isPositive: true
+  },
+  {
+    title: 'Työpäiväni venyvät usein ylipitkiksi ja/tai vien töitä myös kotiini.',
+    category: 'Tunnollinen velvollisuuksien täyttäjä',
+    isPositive: true
+  },
+  {
+    title: 'Tunnollinen velvollisuuksien täyttäjä tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä. ',
+    category: 'Tunnollinen velvollisuuksien täyttäjä',
+    isPositive: true
+  },
+  {
+    title: 'Tekemättömät työt ja uhkakuvat epäonnistumisesta tulevat helposti mieleeni yöllä.',
+    category: 'Huolestumisen mestari',
+    isPositive: true
+  },
+  {
+    title: 'Jos asiat eivät suju toivomallani tavalla, tipahdan helposti huolien ansaan.',
+    category: 'Huolestumisen mestari',
+    isPositive: true
+  },
+  {
+    title: 'Olen taitava kuvittelemaan kaikkein pahimpia vaihtoehtoja.',
+    category: 'Huolestumisen mestari',
+    isPositive: true
+  },
+  {
+    title: 'Unettomat yöt tai tummien pilvien alle kutistuminen syövät voimavarojani.',
+    category: 'Huolestumisen mestari',
+    isPositive: true
+  },
+  {
+    title: 'Huolestumisen mestari sinusta tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Huolestumisen mestari',
+    isPositive: true
+  },
+  {
+    title: 'Poimin mielelläni kerman kakun päältä tekemällä ensin mukavat asiat. ',
+    category: 'Taitava nautiskelija',
     isPositive: false
   },
   {
-    title: 'It feels like most people are smarter than me.',
-    category: 'mind',
+    title: 'Välttelen ikävien tehtävien tekemistä.',
+    category: 'Taitava nautiskelija',
     isPositive: false
   },
   {
-    title: 'I am/was a frequent target of bullying throughout school.',
-    category: ['mind', 'social'],
+    title: 'Asiat jäävät viime tippaan, koska en löydä motivaatiota tehdä.',
+    category: 'Taitava nautiskelija',
     isPositive: false
   },
   {
-    title: 'I frequently have trouble getting to sleep.',
-    category: ['mind', 'health'],
+    title: 'Jätän tylsiä töitä kesken, koska jotain hauskempaa tulee tarjolle.',
+    category: 'Taitava nautiskelija',
     isPositive: false
   },
   {
-    title:
-      'I am often an uncomfortable temperature, sweating in summer and freezing in winter.',
-    category: ['environment', 'finance'],
+    title: 'Taitava nautiskelija tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Taitava nautiskelija',
     isPositive: false
+  },
+  {
+    title: 'Aliarvioin säännönmukaisesti työn tekemiseen tarvittavan ajan.',
+    category: 'Yli-optimisti',
+    isPositive: true
+  },
+  {
+    title: 'En varaa aikaa suunnittelulle, yllätyksille tai virkistäville tauoille.',
+    category: 'Yli-optimisti',
+    isPositive: true
+  },
+  {
+    title: 'Yritän mahduttaa yhteen elämään useamman elämän ainekset.',
+    category: 'Yli-optimisti',
+    isPositive: true
+  },
+  {
+    title: 'Olen ahne tekemään ja kokemaan mahdollisimman paljon. ',
+    category: 'Yli-optimisti',
+    isPositive: true
+  },
+  {
+    title: 'Yli-optimisti tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    category: 'Yli-optimisti',
+    isPositive: true
   }
 ]
