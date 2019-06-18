@@ -149,55 +149,5 @@ export default [
       'I am often an uncomfortable temperature, sweating in summer and freezing in winter.',
     category: ['environment', 'finance'],
     isPositive: false
-  },
-  {
-    title: 'I have fast and reliable internet access.',
-    category: ['environment', 'finance'],
-    isPositive: true
-  },
-  {
-    title: 'I have easy access to food, water and shelter.',
-    category: ['environment', 'health'],
-    isPositive: true
-  },
-  {
-    title: 'I get/got good grades in school.',
-    category: 'mind',
-    isPositive: true
-  },
-  {
-    title: 'I often feel envious of beautiful people.',
-    category: ['appearance', 'mind'],
-    isPositive: false
-  },
-  {
-    title: 'I frequently have pain.',
-    category: 'health',
-    isPositive: false
-  },
-  {
-    title: 'I find it easy to make new friends.',
-    category: ['social', 'mind'],
-    isPositive: true
-  },
-  {
-    title: 'I exercise often.',
-    category: 'health',
-    isPositive: true
-  },
-  {
-    title: 'It feels like no one really cares about me.',
-    category: ['love', 'social', 'mind'],
-    isPositive: false
-  },
-  {
-    title: 'I have a hobby/hobbies that I am really good at.',
-    category: 'mind',
-    isPositive: true
-  },
-  {
-    title: 'I am a victim of abuse.',
-    category: ['environment', 'health', 'mind'],
-    isPositive: false
   }
 ]

@@ -4,7 +4,7 @@ import { MEDIA, Container } from './Framework'
 import Categories from './Categories'
 import ThemeToggler from './ThemeToggler'
 import Tippy from './Tippy'
-import logoLight from '../assets/logo-light.svg'
+import logoLight from '../assets/tamora-logo.png'
 import logoDark from '../assets/logo-dark.svg'
 import QUESTIONS from '../data/questions'
 
@@ -58,11 +58,11 @@ const LogoWrapper = styled.div`
   margin: 60px auto -10px;
 
   @media (min-width: 400px) {
-    height: 250px;
+    height: 150px;
   }
 
   ${MEDIA.md} {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 `
 
@@ -80,14 +80,6 @@ function Header({ theme }) {
   return (
     <HeaderStyled>
       <Container>
-        <Tippy content="Contribute on GitHub" theme={theme.tippy} size="small">
-          <Version href="https://github.com/atomiks/rate-my-life">
-            View Source
-          </Version>
-        </Tippy>
-        <ThemeTogglerWrapper>
-          <ThemeToggler />
-        </ThemeTogglerWrapper>
         <LogoWrapper>
           {/* Toggling `src` is laggier than toggling the display style. */}
           <Logo
@@ -104,19 +96,18 @@ function Header({ theme }) {
           />
         </LogoWrapper>
         <Description>
+          <h2>Testaa, millainen kiirehtijä olet – jos olet lainkaan?</h2>
           <p>
-            Welcome to the Rate My Life Quiz! There are {QUESTIONS.length}{' '}
-            questions asking about your life presented as statements. Your job
-            is to answer them by choosing how much you agree or disagree with
-            them.
+            Paitsi itsemme ulkopuolelta aiheutamme kiireen kokemusta
+            (= jännitteistä tilaa suhteessa aikaan) myös sisältämme tulevilla
+            paineilla, uskomuksilla ja omilla toimintamalleillamme. Meillä
+            kaikilla on intiimi suhde aikaan.
           </p>
-
-          <Heading>Life Categories</Heading>
-          <Categories />
           <p>
-            Your life rating will be broken down into 7 different categories.
-            For each question, press the circle which best represents your
-            answer. Good luck!
+            Tilanteesta riippuen voit tunnistaa itsesi useammastakin
+            kiirehtijätyylistä. Tunnistamalla kollegojesi tyylejä, alat
+            ymmärtää paremmin yhteisösi aikaan liittyviä haasteita. Varmuudella
+            voit muuttaa vain omaa käyttäytymistäsi.
           </p>
         </Description>
       </Container>
