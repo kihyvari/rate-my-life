@@ -7,6 +7,7 @@ const FooterStyled = styled.footer`
   padding: 25px 0;
   background: ${props => props.theme.backgroundDark};
   text-align: center;
+  font-size: 10px;
 `
 
 function Footer() {

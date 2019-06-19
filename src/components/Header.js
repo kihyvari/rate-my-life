@@ -109,6 +109,11 @@ function Header({ theme }) {
             ymmärtää paremmin yhteisösi aikaan liittyviä haasteita. Varmuudella
             voit muuttaa vain omaa käyttäytymistäsi.
           </p>
+          <p>
+            Ilmaise näkemyksesi kaikkiin väitteisiin asteikolla, jossa
+            vasen puoli edustaa eriävää mielipidettä ja oikea puoli
+            myönteistä.
+          </p>
         </Description>
       </Container>
     </HeaderStyled>

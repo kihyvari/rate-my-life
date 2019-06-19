@@ -15,7 +15,7 @@ const AgreementScaleStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: -10px;
   margin-right: -10px;
 `
@@ -30,7 +30,7 @@ const Title = styled.div`
   top: 50px;
   width: ${props => (props.$left ? '20%' : '15%')};
   text-align: ${props => (props.$left ? 'right' : 'left')};
-  margin: 0 0;
+  margin: 0 5px;
   text-transform: uppercase;
   opacity: ${props => props.theme.$type === 'dark' && 0.95};
   display: none;

@@ -67,7 +67,7 @@ function ResultsModal({
                 dispatch={dispatch}
                 animation={props}
               >
-                <Title>Your Life Rating</Title>
+                <Title>Tällainen kiirehtijä olet</Title>
                 <RatingCircle rating={rating} size={150} color={color}>
                 </RatingCircle>
                 <Categories>
