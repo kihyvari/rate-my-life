@@ -5,6 +5,9 @@ import Circle from 'react-circle'
 const RatingCircleWrapper = styled.div`
   max-width: 150px;
   margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 2.5em;
 `
 
 function RatingCircle({ rating, size, color, children, theme, name }) {

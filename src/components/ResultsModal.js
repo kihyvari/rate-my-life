@@ -68,8 +68,6 @@ function ResultsModal({
                 animation={props}
               >
                 <Title>Tällainen kiirehtijä olet</Title>
-                <RatingCircle rating={rating} size={150} color={color}>
-                </RatingCircle>
                 <Categories>
                   {Object.keys(categoryRatings || {}).map(key => {
                     const rating = categoryRatings[key].rating
