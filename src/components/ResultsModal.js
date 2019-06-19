@@ -20,7 +20,8 @@ const Category = styled.div`
 
 const Title = styled.h2`
   color: ${props => props.theme.globalColor};
-  margin-top: 0;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
   text-align: center;
 `
 
