@@ -60,7 +60,7 @@ export default [
     isPositive: true
   },
   {
-    title: 'Suunnittelen omia vuorosanojasi kesken toisen puheenvuoron.',
+    title: 'Suunnittelen omia vuorosanojani kesken toisen puheenvuoron.',
     category: 'Kiihkeästi tulevaisuuteen kurkottaja',
     isPositive: true
   },
@@ -195,7 +195,7 @@ export default [
     isPositive: true
   },
   {
-    title: 'Huolestumisen mestari sinusta tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
+    title: 'Huolestumisen mestari tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
     category: 'Huolestumisen mestari',
     isPositive: true
   },
