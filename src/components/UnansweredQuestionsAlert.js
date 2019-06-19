@@ -38,6 +38,7 @@ const Buttons = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 11px;
   align-items: center;
   max-width: 700px;
   margin: 0 auto;
@@ -115,7 +116,7 @@ function UnansweredQuestionsAlert({
         </ButtonsItem>
         <ButtonsItem>
           <Button onClick={() => dispatch({ type: 'MARK_UNANSWERED_NEUTRAL' })}>
-            Piilota avointen kysymysten korostus
+            Vastaa neutraalisti avoimiin kysymyksiin
           </Button>
         </ButtonsItem>
       </Buttons>
