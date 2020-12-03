@@ -5,6 +5,9 @@ import Modal from './Modal'
 import RatingCircle from './RatingCircle'
 import { getRatingColor } from '../utils/rating'
 import CATEGORIES from '../data/categories'
+import resultImage from "../assets/discount_poirot.jpg"
+import './result.css' // TODO remove this hacky hack
+
 
 const Categories = styled.div`
   display: flex;
@@ -68,7 +71,7 @@ function ResultsModal({
                 dispatch={dispatch}
                 animation={props}
               >
-                <Title>Tällainen kiirehtijä olet</Title>
+                <Title>Lopputulemasi:</Title>
                 <Categories>
                   {Object.keys(categoryRatings || {}).map(key => {
                     const rating = categoryRatings[key].rating
@@ -88,6 +91,10 @@ function ResultsModal({
                     )
                   })}
                 </Categories>
+                <div className='resultImgWrapper'>
+                  <img className='resultImg' src={resultImage}/>
+                  <p>Köysi kiristyy. Harmaat aivosolut raksuttavat, mutta kuka on Paroni Von Chlundenhauzenin myrkytyksen takana? Hovimestari? Ehkä? Entäpä  tuo epäilyttävän näköinen sisäkkö? Sinun on aika ennakoida, rakas Watson. </p>
+                </div>
               </Modal>
             )
           : null
@@ -97,3 +104,5 @@ function ResultsModal({
 }
 
 export default withTheme(ResultsModal)
+
+/* background-image: url("../assets/pilviisi-banner.jpg") */

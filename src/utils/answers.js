@@ -6,7 +6,7 @@ export function getUnanswered(answers) {
   return answers.filter(isUnanswered)
 }
 
-export function calculatePoints(answers, questionData, maxIndex = 6) {
+export function calculatePoints(answers, questionData, maxIndex = 3) {
   return answers.reduce((acc, answer, index) => {
     const points = questionData[index].isPositive ? answer : maxIndex - answer
     return acc + points
@@ -29,7 +29,7 @@ export function getInitialAnswers(answersFromStorage, totalQuestions) {
   return answersFromStorage || [...Array(totalQuestions)]
 }
 
-export function calculateCategoryRatings(answers, questionData, maxIndex = 6) {
+export function calculateCategoryRatings(answers, questionData, maxIndex = 3) {
   return answers.reduce((acc, answer, index) => {
     const { category, isPositive } = questionData[index]
     const categories = Array.isArray(category) ? category : [category]

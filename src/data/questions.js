@@ -1,40 +1,41 @@
 export default [
   {
-    title: 'Minun on vaikea tunnistaa  paljonko on riittävästi, ellei aika riitä täydelliseen.',
-    category: 'Täydellisyyden tavoittelija',
+    title: 'Näet mustan kissan ylittämässä tietä. Miten reagoit?',
+    /* url: 'assets/kysymyskuvat/musta_rajahtanyt_kissa.png' */
+    category: 'Ikääntymisturva',
     isPositive: true
   },
   {
-    title: 'Minun on vaikea hyväksyä mielestäni epätäydellinen suoritus.',
-    category: 'Täydellisyyden tavoittelija',
+    title: 'Mitä seuraavista vaihtoehdoista pelkäät eniten kuolemassa?',
+    category: 'Unelmat näkyviksi',
     isPositive: true
   },
   {
-    title: 'Unohdan nauttia työnteon erilaisista vaiheista.',
-    category: 'Täydellisyyden tavoittelija',
+    title: 'Mitä toivot jättäväsi jälkeesi?',
+    category: 'Kun jotain sattuu',
     isPositive: true
   },
   {
-    title: 'Tehtävien delegoiminen on minulle vaikeaa, koska osaan itse paremmin.',
-    category: 'Täydellisyyden tavoittelija',
+    title: 'Valitse mieluisin lepopaikkasi. (kuvat vaihtoehtoina)',
+    category: 'Ennakoi elämäsi ehtoota',
     isPositive: true
   },
   {
-    title: 'Täydellisyyden tavoittelija tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
-    category: 'Täydellisyyden tavoittelija',
+    title: 'Millaisena näet unelmien vanhuutesi?',
+    category: 'Ikääntymisturva',
     isPositive: true
   },
   {
-    title: 'Saan inspiraation tulevaisuuden Suurista Mahdollisuuksista.',
-    category: 'Ikuinen uneksija',
-    isPositive: false
+    title: 'Miten pidät mielenvireyttäsi yllä?',
+    category: 'Unelmat näkyviksi',
+    isPositive: true
   },
   {
-    title: 'Olen ideanikkari, jolta pulppuaa uusia ajatuksia.',
-    category: 'Ikuinen uneksija',
-    isPositive: false
+    title: 'Valitse eniten sinua kuvaava valokuva  (Kuvat)',
+    category: 'Ennakoi elämäsi ehtoota',
+    isPositive: true
   },
-  {
+  /* {
     title: 'Muut eivät usein usko visioihini ja lähde mukaan toteutukseen.',
     category: 'Ikuinen uneksija',
     isPositive: false
@@ -248,5 +249,5 @@ export default [
     title: 'Yli-optimisti tuntuu minusta tutulta  ja itseeni osuvalta tyyliltä.',
     category: 'Yli-optimisti',
     isPositive: true
-  }
+  } */
 ]

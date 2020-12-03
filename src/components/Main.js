@@ -89,7 +89,7 @@ function Main() {
             />
           )}
           <SubmitButton disabled={questionsRemaining > 0} onClick={onSubmit}>
-            Kerro minulle, millainen kiirehtijä olen!
+            Kerro minulle, millainen olet!
           </SubmitButton>
         </Center>
       </Container>

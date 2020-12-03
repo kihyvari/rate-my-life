@@ -1,0 +1,10 @@
+.resultImg {
+    max-width: 50vw;
+    max-height: 50vw;
+}
+
+.resultImgWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

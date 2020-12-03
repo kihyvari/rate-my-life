@@ -4,12 +4,13 @@ import { MEDIA, Container } from './Framework'
 import Categories from './Categories'
 import ThemeToggler from './ThemeToggler'
 import Tippy from './Tippy'
-import logoLight from '../assets/tamora-logo.png'
-import logoDark from '../assets/tamora-logo.png'
+import logoLight from '../assets/umbrella.png'
+import logoDark from '../assets/umbrella.png'
 import QUESTIONS from '../data/questions'
 
 const HeaderStyled = styled.header`
   text-align: center;
+  /* background-image: url("../assets/pilviisi-banner.jpg"); */
 `
 
 const Heading = styled.h2`
@@ -52,6 +53,7 @@ const ThemeTogglerWrapper = styled.div`
 `
 
 const LogoWrapper = styled.div`
+  display: flex;
   position: relative;
   height: 230px;
   max-width: 300px;
@@ -67,7 +69,8 @@ const LogoWrapper = styled.div`
 `
 
 const Logo = styled.img`
-  position: absolute;
+  /* position: absolute; */
+  max-width: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -96,23 +99,9 @@ function Header({ theme }) {
           />
         </LogoWrapper>
         <Description>
-          <h2>Testaa, millainen kiirehtijä olet – jos olet lainkaan?</h2>
+          <h2>Palveluihin ohjaava leikkimielinen psykologinen testi</h2>
           <p>
-            Paitsi itsemme ulkopuolelta aiheutamme kiireen kokemusta
-            (= jännitteistä tilaa suhteessa aikaan) myös sisältämme tulevilla
-            paineilla, uskomuksilla ja omilla toimintamalleillamme. Meillä
-            kaikilla on intiimi suhde aikaan.
-          </p>
-          <p>
-            Tilanteesta riippuen voit tunnistaa itsesi useammastakin
-            kiirehtijätyylistä. Tunnistamalla kollegojesi tyylejä, alat
-            ymmärtää paremmin yhteisösi aikaan liittyviä haasteita. Varmuudella
-            voit muuttaa vain omaa käyttäytymistäsi.
-          </p>
-          <p>
-            Ilmaise näkemyksesi kaikkiin väitteisiin asteikolla, jossa
-            vasen puoli edustaa eriävää mielipidettä ja oikea puoli
-            myönteistä.
+          Tähän kohtaan olisi hyvä kehitellä introteksti käyttäjille
           </p>
         </Description>
       </Container>

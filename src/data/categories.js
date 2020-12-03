@@ -1,32 +1,34 @@
-import taydellisyydenTavoittelija from '../assets/icons/taydellisyydenTavoittelija.svg'
-import ikuinenUneksija from '../assets/icons/ikuinenUneksija.svg'
-import kiihkeastiTulevaisuuteenKurkottaja from '../assets/icons/kiihkeastiTulevaisuuteenKurkottaja.svg'
-import turvalliseenMenneisyyteenLuottaja from '../assets/icons/turvalliseenMenneisyyteenLuottaja.svg'
-import melkeinSitoutuja from '../assets/icons/melkeinSitoutuja.svg'
+import unelmatNakyviksi from '../assets/icons/taydellisyydenTavoittelija.svg' // TODO replace .svg 
+import ikaantymisturva from '../assets/icons/ikuinenUneksija.svg'
+import kunJotainSattuu from '../assets/icons/kiihkeastiTulevaisuuteenKurkottaja.svg'
+import ennakoiElämäsiEhtoota from '../assets/icons/turvalliseenMenneisyyteenLuottaja.svg'
+/* import melkeinSitoutuja from '../assets/icons/melkeinSitoutuja.svg' // TODO CLEAN UP THIS MESS!
 import erityisenEmpaattinenTyyppi from '../assets/icons/erityisenEmpaattinenTyyppi.svg'
 import tunnollinenVelvollisuuksienTayttaja from '../assets/icons/tunnollinenVelvollisuuksienTayttaja.svg'
 import huolestumisenMestari from '../assets/icons/huolestumisenMestari.svg'
 import taitavaNautiskelija from '../assets/icons/taitavaNautiskelija.svg'
-import yliOptimisti from '../assets/icons/yliOptimisti.svg'
+import yliOptimisti from '../assets/icons/yliOptimisti.svg' */
+
+/* category: 'Unelmat näkyviksi', category: 'Ikääntymisturva', category: 'Kun jotain sattuu', category: 'Ennakoi elämäsi ehtoota', */
 
 export default [
   {
-    name: 'Täydellisyyden tavoittelija',
-    image: taydellisyydenTavoittelija
+    name: 'Unelmat näkyviksi',
+    image: unelmatNakyviksi
   },
   {
-    name: 'Ikuinen uneksija',
-    image: ikuinenUneksija
+    name: 'Ikääntymisturva',
+    image: ikaantymisturva
   },
   {
-    name: 'Kiihkeästi tulevaisuuteen kurkottaja',
-    image: kiihkeastiTulevaisuuteenKurkottaja
+    name: 'Kun jotain sattuu',
+    image: kunJotainSattuu
   },
   {
-    name: 'Turvalliseen menneisyyteen luottaja',
-    image: turvalliseenMenneisyyteenLuottaja
+    name: 'Ennakoi elämäsi ehtoota',
+    image: ennakoiElämäsiEhtoota
   },
-  {
+  /*{
     name: 'Melkein sitoutuja',
     image: melkeinSitoutuja
   },
@@ -49,5 +51,5 @@ export default [
   {
     name: 'Ylioptimisti',
     image: yliOptimisti
-  }
+  } */
 ]
