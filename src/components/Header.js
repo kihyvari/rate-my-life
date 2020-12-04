@@ -4,8 +4,8 @@ import { MEDIA, Container } from './Framework'
 import Categories from './Categories'
 import ThemeToggler from './ThemeToggler'
 import Tippy from './Tippy'
-import logoLight from '../assets/umbrella.png'
-import logoDark from '../assets/umbrella.png'
+import logoLight from '../assets/pilviisi_logo.png'
+import logoDark from '../assets/pilviisi_logo.png'
 import QUESTIONS from '../data/questions'
 
 const HeaderStyled = styled.header`
@@ -60,7 +60,7 @@ const LogoWrapper = styled.div`
   margin: 60px auto -10px;
 
   @media (min-width: 400px) {
-    height: 150px;
+    height: 300px;
   }
 
   ${MEDIA.md} {
