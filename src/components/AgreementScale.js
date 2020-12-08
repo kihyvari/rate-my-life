@@ -8,11 +8,12 @@ import UserInputContext from '../contexts/UserInputContext'
 // The buttons go from large (strongly disagree) to small (neutral) then large
 // again (strongly agree) -- Size in pixels.
 const BUTTON_SIZES = [50, 50, 50, 50]
-const buttonSizes = BUTTON_SIZES.concat(BUTTON_SIZES.slice(0, 3).reverse())
+const buttonSizes = BUTTON_SIZES  /* .concat(BUTTON_SIZES.slice(0, 3).reverse()) */ // We don't need Likert scale
 
 const AgreementScaleStyled = styled.div`
   position: relative;
   display: flex;
+  /* flex-direction: column; */ // TODO remove if obsolete
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -33,7 +34,7 @@ const Title = styled.div`
   margin: 0 5px;
   text-transform: uppercase;
   opacity: ${props => props.theme.$type === 'dark' && 0.95};
-  display: none;
+  /* display: none; */
 
   ${MEDIA.md} {
     position: static;
@@ -64,7 +65,7 @@ function AgreementScale({
   return (
     <AgreementScaleStyled>
       <Title $color={theme.scale[0]} $left>
-        Ei
+        Vasen
       </Title>
       <TippyDelayGroup
         delay={userInput !== 'mouse' ? [300, 0] : [1000, 500]}
@@ -95,14 +96,14 @@ function AgreementScale({
         }
       </TippyDelayGroup>
       <Title $color={theme.scale[theme.scale.length - 1]} $right>
-        Kyllä
+        Oikea
       </Title>
     </AgreementScaleStyled>
   )
 }
 
 AgreementScale.defaultProps = {
-  displayTitles: false,
+  displayTitles: true,
 }
 
 export default memo(withTheme(AgreementScale))

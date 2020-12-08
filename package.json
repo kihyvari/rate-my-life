@@ -5,21 +5,21 @@
   "homepage": "https://atomiks.github.io/rate-my-life",
   "dependencies": {
     "@tippy.js/react": "^1.1.1",
-    "copy-to-clipboard": "^3.0.8",
-    "elastic-scroll-polyfill": "^2.0.0",
+    "copy-to-clipboard": "^3.3.1",
+    "elastic-scroll-polyfill": "^2.1.0",
     "focus-trap": "^3.0.0",
     "focus-visible": "^4.1.5",
-    "howler": "^2.0.15",
-    "lodash": "^4.17.11",
-    "polished": "^2.3.0",
-    "react": "^16.7.0-alpha.2",
+    "howler": "^2.2.1",
+    "lodash": "^4.17.20",
+    "polished": "^2.3.3",
+    "react": "^16.14.0",
     "react-circle": "^1.1.1",
-    "react-dom": "^16.7.0-alpha.2",
-    "react-feather": "^1.1.4",
+    "react-dom": "^16.14.0",
+    "react-feather": "^1.1.6",
     "react-scripts": "2.1.1",
-    "react-spring": "^6.1.9",
-    "source-map-explorer": "^1.6.0",
-    "styled-components": "^4.1.1"
+    "react-spring": "^6.1.10",
+    "source-map-explorer": "^1.8.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +40,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }

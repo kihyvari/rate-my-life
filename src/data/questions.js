@@ -1,39 +1,144 @@
 export default [
   {
     title: 'Näet mustan kissan ylittämässä tietä. Miten reagoit?',
-    /* url: 'assets/kysymyskuvat/musta_rajahtanyt_kissa.png' */
+    /* url: 'assets/kysymyskuvat/musta_rajahtanyt_kissa.png' TODO*/
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Ikääntymisturva',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Mitä seuraavista vaihtoehdoista pelkäät eniten kuolemassa?',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Unelmat näkyviksi',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Mitä toivot jättäväsi jälkeesi?',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Kun jotain sattuu',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Valitse mieluisin lepopaikkasi. (kuvat vaihtoehtoina)',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Ennakoi elämäsi ehtoota',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Millaisena näet unelmien vanhuutesi?',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Ikääntymisturva',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Miten pidät mielenvireyttäsi yllä?',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Unelmat näkyviksi',
-    isPositive: true
+    isPositive: true,
   },
   {
     title: 'Valitse eniten sinua kuvaava valokuva  (Kuvat)',
+    answers: [
+      {
+        answer: 'a) Jarrutat ja odotat kissan ylittävän tien rauhassa.',
+        category: 'Unelmat näkyväksi',
+      },
+      {
+        answer:
+          'b) Säikähdät pahanpäiväisesti ja suoritat varotoimenpiteenä rituaalin, jossa sylkäiset ja heität suolaa olkasi yli.',
+        category: 'Kun jotain sattuu',
+      },
+      {
+        answer: 'c) Painat kaasua ja kiroat kissan alimpaan helv..',
+        category: 'Ennakoi elämäsi ehtoota',
+      },
+    ],
     category: 'Ennakoi elämäsi ehtoota',
-    isPositive: true
+    isPositive: true,
   },
   /* {
     title: 'Muut eivät usein usko visioihini ja lähde mukaan toteutukseen.',
@@ -250,4 +355,4 @@ export default [
     category: 'Yli-optimisti',
     isPositive: true
   } */
-]
+];

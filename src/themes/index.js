@@ -13,13 +13,10 @@ export default {
     blue: '#4a7eff',
     tippy: 'google',
     scale: [
-      '#f2246c',
-      '#e9557f',
-      '#ff7d8f',
-      '#acb5c5',
-      '#85c89e',
-      '#6bbb94',
-      '#00b781',
+      '#00bbbb',
+      '#00bbbb',
+      '#00bbbb',
+      '#00bbbb',
     ],
   },
   dark: {

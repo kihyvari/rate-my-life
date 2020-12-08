@@ -18,13 +18,10 @@ const highPop = new Howl({ src: pop1, ...options })
 const popSounds = [lowPop, lowPop, lowPop, midPop, highPop, highPop, highPop]
 
 export const TITLES = [
-  'Vahvasti eri mieltä',
-  'Eri mieltä',
-  'Hieman eri mieltä',
-  'En osaa sanoa',
-  'Hieman samaa mieltä',
-  'Samaa mieltä',
-  'Voimakkaasti samaa mieltä',
+  'Vastaus a)',
+  'Vastaus b)',
+  'Vastaus c)',
+  'Vastaus d)',
 ]
 
 const feedbackAnimation = keyframes`
@@ -49,7 +46,7 @@ const AgreementButtonStyled = styled.button`
   width: ${props => baseSize(props.$size)}px;
   background: transparent;
   height: ${props => baseSize(props.$size)}px;
-  border: 4px solid ${props => props.theme.scale[props.index]};
+  border: 4px solid #009494;
   margin: 0 2%;
   transition: background-color 0.3s, transform 0.5s ${CSS_EASING.spring};
   z-index: initial;
@@ -66,7 +63,7 @@ const AgreementButtonStyled = styled.button`
   }
 
   @media (min-width: 450px) {
-    margin: 0 8px;
+    margin: 5% 8px;
     width: ${props => _450pxSize(props.$size)}px;
     height: ${props => _450pxSize(props.$size)}px;
   }

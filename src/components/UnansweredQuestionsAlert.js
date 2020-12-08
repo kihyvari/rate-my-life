@@ -81,7 +81,7 @@ function UnansweredQuestionsAlert({
   })
 
   const tooltipContent =
-    'Questions highlighted! Scroll up to answer the ones you missed.'
+    'Vastaamattomat kysymykset ovat korostettu!'
 
   return (
     <UnansweredQuestionsAlertStyled>
@@ -114,11 +114,11 @@ function UnansweredQuestionsAlert({
             </span>
           </Tippy>
         </ButtonsItem>
-        <ButtonsItem>
+        {/* <ButtonsItem>
           <Button onClick={() => dispatch({ type: 'MARK_UNANSWERED_NEUTRAL' })}>
             Vastaa neutraalisti avoimiin kysymyksiin
-          </Button>
-        </ButtonsItem>
+          </Button> // TODO we don't have neutral answers
+        </ButtonsItem> */}
       </Buttons>
     </UnansweredQuestionsAlertStyled>
   )
