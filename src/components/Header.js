@@ -55,13 +55,10 @@ const ThemeTogglerWrapper = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   position: relative;
-  height: 230px;
+  height: 300px;
   max-width: 300px;
   margin: 60px auto -10px;
 
-  @media (min-width: 0px) {
-    height: 300px;
-  }
 
   ${MEDIA.md} {
     margin-top: 50px;
