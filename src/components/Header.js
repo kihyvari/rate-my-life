@@ -19,7 +19,7 @@ const Heading = styled.h2`
 `
 
 const Description = styled.div`
-  text-align: left;
+  text-align: center;
 
   p {
     margin-top: 10px;
@@ -55,13 +55,10 @@ const ThemeTogglerWrapper = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   position: relative;
-  height: 230px;
+  height: 300px;
   max-width: 300px;
   margin: 60px auto -10px;
 
-  @media (min-width: 400px) {
-    height: 300px;  /* TODO */
-  }
 
   ${MEDIA.md} {
     margin-top: 50px;
@@ -100,8 +97,9 @@ function Header({ theme }) {
         </LogoWrapper>
         <Description>
           <h2>Palveluihin ohjaava leikkimielinen psykologinen testi</h2>
-          <p>
-          Tähän kohtaan olisi hyvä kehitellä introteksti käyttäjille
+          <p>KUKA ON PUIKOISSA? -HUPAINEN PERSOONALLISUUSTESTI
+          Mikä on elämäsi tarkoitus, siinäpä vasta pulma.
+          Oletko enemmän oman elämäsi kuski vai kyytiläinen? Ota siitä selvää.
           </p>
         </Description>
       </Container>
