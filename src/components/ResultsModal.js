@@ -7,7 +7,11 @@ import { getRatingColor } from '../utils/rating'
 import CATEGORIES from '../data/categories'
 import resultImage from "../assets/discount_poirot.jpg"
 import './result.css' // TODO remove this hacky hack
+import CallToActionButton from './CallToActionButton'
 
+const goToLink = () => {
+  window.open("https://www.pilviisi.fi");
+}
 
 const Categories = styled.div`
   display: flex;
@@ -95,6 +99,9 @@ function ResultsModal({
                   <img className='resultImg' src={resultImage}/>
                   <p>Köysi kiristyy. Harmaat aivosolut raksuttavat, mutta kuka on Paroni Von Chlundenhauzenin myrkytyksen takana? Hovimestari? Ehkä? Entäpä  tuo epäilyttävän näköinen sisäkkö? Sinun on aika ennakoida, rakas Watson. </p>
                 </div>
+                <CallToActionButton onClick={goToLink}> 
+            Tästä Sivuillemme!
+          </CallToActionButton>
               </Modal>
             )
           : null
